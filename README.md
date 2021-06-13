@@ -57,8 +57,6 @@ This app tells us about the various creatures and things that fascinate us aroun
 6. Game suggestions to play with your loved ones.
 7. Hosting on PlayStore.
 
-</br>
-
 ## **Built With**
 
 <img src="https://img.shields.io/badge/flutter%20-%2300D9FF.svg?&style=for-the-badge&logo=flutter&logoColor=white" />&nbsp;&nbsp;&nbsp;
