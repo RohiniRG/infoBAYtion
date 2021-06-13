@@ -20,7 +20,6 @@
 
 <h2 align="center"><b>infoBAYtion App Screenshots</b></h2>
 
----
 <p float="left" align="middle">
   <img src="https://iili.io/C9UEvf.md.png" width="135" />
   <img src="https://iili.io/C9UGp4.md.png" width="135" /> 
