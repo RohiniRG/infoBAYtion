@@ -11,10 +11,12 @@ class _HomeState extends State<Home> {
   List<Titles> titles = [
     Titles(name: 'Crabs', path: 'crab.png'),
     Titles(name: 'Birds', path: 'Bird.png'),
-    Titles(name: 'Fishes', path: 'fish.png'),
+    // Titles(name: 'Dolphins', path: 'fish.png'),
     Titles(name: 'Octopus', path: 'Octopus.png'),
     Titles(name: 'Starfishes', path: 'Starfish.png'),
     Titles(name: 'Shells', path: 'shell.png'),
+    Titles(name: 'Dolphins', path: 'Dolphins.png'),
+    Titles(name: 'Turtles', path: 'Turtle.png'),
     Titles(name: 'Boats', path: 'Boat.png'),
     Titles(name: 'Sandcastles', path: 'Sandcastle.png'),
     Titles(name: 'Palm Trees', path: 'Palmtrees.png'),

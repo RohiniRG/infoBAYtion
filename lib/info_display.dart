@@ -32,7 +32,7 @@ class _InfoDisplayState extends State<InfoDisplay> {
           scrollDirection: Axis.horizontal,
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.fromLTRB(30.0, 0.0, 10.0, 0.0),
+              padding: const EdgeInsets.fromLTRB(25.0, 0.0, 10.0, 0.0),
               child: Card(
                 elevation: 50,
                 shadowColor: Colors.black,
@@ -48,14 +48,14 @@ class _InfoDisplayState extends State<InfoDisplay> {
                           height: 170,
                           width: 350,
                           decoration: BoxDecoration(
-                              // image: DecorationImage(image: AssetImage('assets/Thumbnail.png'), fit: BoxFit.fill),
                               border: Border.all(
-                                  color: new Color(0xffffde59), width: 5),
+                                  color: new Color(0xffffde59), width: 5
+                                ),
                               shape: BoxShape.rectangle),
-                          // Img path
                           child: Image(
-                              image: AssetImage('assets/AtlanticRC.jpg'),
-                              fit: BoxFit.cover),
+                              image: NetworkImage(details[routes['index']][0][1]),
+                              fit: BoxFit.cover
+                            ),
                         ),
                         SizedBox(
                           height: 10,
@@ -93,11 +93,11 @@ class _InfoDisplayState extends State<InfoDisplay> {
                           ),
                         ),
                       ],
-                    ), 
-                  ), 
-                ), 
+                    ),
+                  ),
+                ),
               ),
-            ), 
+            ),
             Padding(
               padding: const EdgeInsets.fromLTRB(30.0, 0.0, 10.0, 0.0),
               child: Card(
@@ -115,20 +115,18 @@ class _InfoDisplayState extends State<InfoDisplay> {
                           height: 170,
                           width: 350,
                           decoration: BoxDecoration(
-                              // image: DecorationImage(image: AssetImage('assets/Thumbnail.png'), fit: BoxFit.fill),
                               border: Border.all(
-                                  color: new Color(0xffffde59), width: 5),
+                                  color: Colors.green, width: 5),
                               shape: BoxShape.rectangle),
                           // Img path
                           child: Image(
-                              image: AssetImage('assets/AtlanticRC.jpg'),
+                              image: NetworkImage(details[routes['index']][1][1]),
                               fit: BoxFit.cover),
                         ),
                         SizedBox(
                           height: 10,
-                        ), //SizedBox
+                        ),
                         Text(
-                          // Title
                           details[routes['index']][1][0],
                           style: TextStyle(
                               fontSize: 35,
@@ -160,22 +158,14 @@ class _InfoDisplayState extends State<InfoDisplay> {
                             ),
                           ),
                         ),
-
-                        // ListView()
-                        // SizedBox(
-                        //   height: 10,
-                        // ), //SizedBox
-                        // SizedBox(
-                        //   width: 80,
-                        // ) //SizedBox
                       ],
-                    ), //Column
-                  ), //Padding
-                ), //SizedBox
+                    ),
+                  ),
+                ),
               ),
-            ), //Card
+            ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(30.0, 0.0, 30.0, 0.0),
+              padding: const EdgeInsets.fromLTRB(30.0, 0.0, 25.0, 0.0),
               child: Card(
                 elevation: 50,
                 shadowColor: Colors.black,
@@ -193,11 +183,11 @@ class _InfoDisplayState extends State<InfoDisplay> {
                           decoration: BoxDecoration(
                               // image: DecorationImage(image: AssetImage('assets/Thumbnail.png'), fit: BoxFit.fill),
                               border: Border.all(
-                                  color: new Color(0xffffde59), width: 5),
+                                  color: Colors.blue, width: 5),
                               shape: BoxShape.rectangle),
                           // Img path
                           child: Image(
-                              image: AssetImage('assets/AtlanticRC.jpg'),
+                              image: NetworkImage(details[routes['index']][2][1]),
                               fit: BoxFit.cover),
                         ),
                         SizedBox(
@@ -236,14 +226,6 @@ class _InfoDisplayState extends State<InfoDisplay> {
                             ),
                           ),
                         ),
-
-                        // ListView()
-                        // SizedBox(
-                        //   height: 10,
-                        // ), //SizedBox
-                        // SizedBox(
-                        //   width: 80,
-                        // ) //SizedBox
                       ],
                     ), //Column
                   ), //Padding
